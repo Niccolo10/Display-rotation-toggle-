@@ -10,7 +10,9 @@ A simple bash script to toggle the screen rotation of a specified display using 
     ```
 
 2. **Customize the Script:**
-    Open `toggle_rotate.sh` in a text editor, change the `display` variable to match your display name (e.g., `DP-2`) and change the rotation control with the side that you need (left/right).
+    Open `toggle_rotate.sh` in a text editor and replace the placeholders:
+    - Replace `{select your display}` with your display name (e.g., `DP-1`).
+    - Replace `{select rotation direction}` with your desired rotation direction (`left` or `right`).
 
 3. **Make the Script Executable:**
     ```bash
